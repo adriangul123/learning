@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My website</title>
+	<style type="text/css">
+#p01 {
+	color: green;
+}
+p.error {
+	color: red;
+}
+h1.error {
+	color: red;
+}
+p.borders {
+	border: 1px solid grey;
+}
+h1.borders {
+	border: 1px solid grey;
+}
+p.padding {
+	border: 1px solid grey;
+	padding: 10px;
+}
+p.margin {
+border: 1px solid grey;	
+padding: 10px;
+margin: 30px;
+
+}
+	</style>
+	<meta charset="UTF-8">
+</head>
+
+<!-- Html styles-->
+
+<body style="background-color: lightgrey;">
+<h1>Html learning</h1>
+<hr>
+
+<!-- Color-->
+
+<h1 style="color: red">ISFJ</h1>
+<h2 style="color:skyblue">INTP</h2>
+<hr>
+
+<!-- Text fonts-->
+
+<h1 style="font-family: verdana;"> This is Verdana header</h1>
+<h1>This is a header witout fonts</h1>
+<p style="font-family:courier;"> This is courier font-family</p>
+<p> This is with no fonts </p>
+
+<!--Text size-->
+
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+<!-- Text Alignment-->
+
+<h1 style="text-align:center;">Centered heading</h1>
+<p>This is a paragraph.</p>
+<hr>
+<h1>HTML Text Formatting</h1>
+
+<!-- Bold formatting using the <b> element -->
+
+<hr>
+<p>This text is normal.</p>
+<p><b>This text is bold.</b></p>
+
+<!-- Strong formatting using the <strong> element-->
+
+<hr>
+<p><strong>This text is strong.</strong></p>
+
+<!-- Italic formatting using the <i> element-->
+
+<hr>
+<p><i>This text is italic.</i></p>
+
+<!--Emphasized formatting using the <em> element-->
+
+<hr>
+<p><em>This text is emphasized.</em></p>
+
+<!-- Small formatting using the <small> element-->
+
+<hr>
+<h2>HTML <small>Small</small> Formatting</h2>
+
+<!--Marked formatting using the <mark> element -->
+
+<hr>
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+
+<!--Marked deleted using the <del> element-->
+
+<hr>
+<p>The del element represents deleted (removed) text.</p>
+<p>My favorite color is <del>blue</del> red.</p>
+
+<!--Marked inserted using the <ins> element-->
+
+<p>The ins element represent inserted (added) text.</p>
+<p>My favorite <ins>color</ins> is red.</p>
+<!-- Marked deleted and inserted using <del> and <ins> -->
+<!-- Subscript formatting using the <sub> element-->
+
+<hr>
+<p>This is <sub>subscripted</sub> text.</p>
+
+<!-- Superscript formatting using the <sup> element -->
+
+<hr>
+<p>This is <sup>superscripted</sup> text.</p>
+<hr>
+<h1>HTML Quotations and Citations</h1>
+
+<!--Formatting short quotations with the <q> element.-->
+
+<hr>
+<p>Browsers usually insert quotation marks around the q element.</p>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+<!--Formatting quoted sections with the <blockquote> element.-->
+
+<hr>
+<p>Browsers usually indent blockquote elements.</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+<!-- Formatting document author/owner information with the <address> element-->
+
+<hr>
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<!-- Formatting abbreviations and acronyms the <abbr> element-->
+
+<hr>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+
+<!-- Formatting work title with the <cite> element -->
+
+<hr>
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+
+<img src="bilder/img_the_scream.jpg" width="220" height="277" alt="The Scream">
+
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+<!--Formatting text direction with the <bdo> element-->
+
+<hr>
+<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+<bdo dir="rtl">This line will be written from right to left</bdo>
+<hr>
+<h1>HTML Computercode Elements</h1>
+
+<!-- Keyboard input formatting using the <kbd> element -->
+
+<hr>
+<p>The kbd element represents keyboard input:</p>
+
+<p><kbd>File | Open...</kbd></p>
+
+<!-- Computer output formatting using the <samp> element-->
+
+<hr>
+<p>The samp element represents sample output from a computer program:</p>
+
+<samp>
+demo.example.com login: Apr 12 09:10:17
+Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+</samp>
+
+<!-- Programming code formatting using the <code> element-->
+
+<hr>
+<p>Programming code example:</p>
+
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+
+<!--Programming code formatting preserving whitespace and line-breaks-->
+
+<hr>
+<p>The code element does not preserve whitespace and line-breaks.</p>
+<p>To fix this, you can put the code element inside a pre element:</p>
+
+<pre>
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+</pre>
+
+<!--Variable formatting using the <var> element-->
+
+<hr>
+<p>Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</p>
+<hr>
+
+<!--HTML CSS-->
+
+<h1>HTML CSS</h1>
+
+<!--HTML with inline CSS-->
+
+<hr>
+<h1 style="color:blue;">This is a Blue Heading</h1>
+
+<!--HTML with CSS using the id attribute-->
+
+<hr>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p id="p01">I am different.</p>
+
+<!-- HTML with CSS using the class attribute-->
+
+<hr>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different too.</p>
+
+<!--HTML and CSS borders-->
+<hr>
+<h1 class="borders">This is a heading with borders</h1>
+
+<p class="borders">This is a paragraph with borders.</p>
+<p class="borders">This is a paragraph with borders.</p>
+<p class="borders">This is a paragraph with borders.</p>
+
+<!--HTML and CSS padding-->
+<hr>
+<h1 class="padding">This is a heading</h1>
+
+<p class="padding">This is a paragraph with padding and borders.</p>
+<p class="padding">This is a paragraph with padding and borders.</p>
+<p class="padding">This is a paragraph with padding and borders.</p>
+
+<!--HTML and CSS margin-->
+<hr>
+<p class="margin">This is a paragraph with padding,boders and margin</p>
+<p class="margin">This is a paragraph with padding,boders and margin</p>
+<p class="margin">This is a paragraph with padding,boders and margin</p>
+<!-- HTML and CSS full demo-->
+<hr>
+<div style="position:relative;">
+  <div style="opacity:0.5;position:absolute;left:50px;top:-30px;width:300px;height:150px;background-color:#40B3DF"></div>
+  <div style="opacity:0.3;position:absolute;left:120px;top:20px;width:100px;height:170px;background-color:#73AD21"></div>
+  <div style="margin-top:30px;width:360px;height:130px;padding:20px;border-radius:10px;border:10px solid #EE872A;font-size:120%;">
+	<h1>CSS = Styles and Colors</h1>
+	<div style="letter-spacing:12px;font-size:15px;position:relative;left:25px;top:25px;">Manipulate Text</div>
+	<div style="color:#40B3DF;letter-spacing:12px;font-size:15px;position:relative;left:25px;top:30px;">Colors,
+	<span style="background-color:#B4009E;color:#ffffff;"> Boxes</span></div>
+	</div>
+</div>
+
+<h1>HTML links</h1>
+<!-- Linking, using an absolute URL-->
+
+<hr>
+<p><a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a></p>
+
+
+
+
+
+
+
+</body>
+</html>
